@@ -1,0 +1,41 @@
+.leavejoin {
+    text-align: center;
+    /* margin-top: 150px; */
+    background: #bcf7b7;
+    padding: 50px;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    width: 80%;
+    margin: 60px auto;
+    border-radius: 25px;
+    border: 2px solid #2ca12ccc;
+    /* box-shadow: aliceblue; */
+    box-shadow: 1px 1px 7px 0px #00d264;
+    position: relative;
+}
+
+.click {
+    margin: -36px;
+}
+
+#icon_home {
+    position: relative;
+    top: -4px;
+    right: -4px;
+}
+
+.emoji {
+    font-size: 300%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    margin: auto;
+}
+
+body {
+    background-color: rgb(161, 199, 161);
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}

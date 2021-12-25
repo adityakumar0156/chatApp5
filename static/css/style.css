@@ -1,0 +1,226 @@
+.footer {
+    background-color: rgb(114 181 140);
+    height: 40px;
+    margin-top: 12px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#userList {
+    font-size: 150%;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#send {
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+.nav {
+    position: fixed;
+    z-index: 111;
+    background-color: #9fc8af;
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    /* display: block; */
+    margin: 6px;
+    width: 37px;
+    height: 37px;
+    float: left;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 955px;
+    background-color: rgb(71, 65, 65);
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+#typing {
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 10px;
+    background-color: #263d38;
+    height: 25px;
+    /* position: absolute; */
+    text-align: center;
+    border-radius: 15px;
+    font-size: 110%;
+    /* left: 48%; */
+    font-family: 'Hind Siliguri', sans-serif;
+    float: left;
+}
+
+#users {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+    margin: 0px 5px;
+    margin-top: 10px;
+    background-color: #263d38;
+    height: 35px;
+    /* position: absolute; */
+    text-align: center;
+    border-radius: 15px;
+    font-size: 100%;
+    /* left: 48%; */
+    font-family: 'Hind Siliguri', sans-serif;
+    float: left;
+}
+
+#profile {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 5px 8px;
+    color: white;
+    text-align: center;
+    margin: 0px 0px;
+    margin-top: 10px;
+    background-color: #263d38;
+    height: 35px;
+    /* position: absolute; */
+    text-align: center;
+    border-radius: 15px;
+    font-size: 100%;
+    /* left: 48%; */
+    font-family: 'Hind Siliguri', sans-serif;
+    float: left;
+}
+
+.message {
+    /* font-weight: bold; */
+    max-width: 55%;
+    min-width: 18%;
+    padding: 14px;
+    margin: 23px 0px;
+    border: 2px solid rgb(0, 71, 60);
+    border-radius: 10px;
+    position: relative;
+    font-size: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .message {
+        max-width: 70%;
+        min-width: 43%;
+        padding-bottom: 20px;
+        margin: 23px 0px;
+        border: 2px solid rgb(0, 71, 60);
+        border-radius: 10px;
+        position: relative;
+        font-size: 120%;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 500;
+    }
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: rgb(194, 224, 219);
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: rgb(109, 209, 179);
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 75%;
+    /* background-color: #51ad94; */
+}
+
+.joined {
+    font-weight: initial;
+    padding: 0px 15px;
+    color: white;
+    text-align: center;
+    max-width: 285px;
+    background-color: #16616e;
+    height: 33px;
+    border-radius: 15px;
+    margin: 20px auto;
+    clear: both;
+    font-size: 90%;
+}
+
+.time {
+    position: absolute;
+    bottom: 0px;
+    font-size: 67%;
+    right: 10px;
+}
+
+.name {
+    width: max-content;
+    font-weight: initial;
+    padding: 0px 15px;
+    color: white;
+    text-align: center;
+    /* width: 85px; */
+    background-color: #5b8078;
+    height: 19px;
+    position: absolute;
+    left: 0px;
+    top: -22px;
+    border-radius: 15px;
+    font-size: 80%;
+}
+
+#join-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 65%;
+}
+
+#messageInp {
+    width: 92%;
+    /* border: 2px solid black; */
+    border-radius: 6px;
+    height: 27px;
+    margin: 10px 0px;
+    background-color: #94cfc0;
+}
+
+.btn_custom {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+#vids {
+    display: none;
+}
+
+video {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(159, 200, 175);
+}
